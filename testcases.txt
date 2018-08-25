@@ -1,0 +1,46 @@
+Input: ./stringsorter
+Output: Error message
+
+
+Input: ./stringsorter hello goodbye
+Output: Error message 
+
+
+Input: ./stringsorter aaa1bbb2^ccc
+Output: aaa, bbb, ccc
+
+
+Input: ./stringsorter ccc%aaa%ddd&mmm*ggh
+Output: aaa, ccc, ddd, ggh, mmm
+
+
+Input: ./stringsorter AAA^zzz
+Output: AAA, zzz
+
+
+Input: ./stringsorter Z7a
+Output: Z, a
+
+
+Input: ./stringsorter aand,aAnd,Aand,Aand
+Output: AAnd, Aand, aAnd, aand 
+
+
+Input: ./stringsorter “bravo delta charlie echo zulu”
+Output: bravo, charlie, delta, echo, zulu
+
+
+Input: ./stringsorter a&*#&*$&*&$&*&%57c&($(&&($&(%79z989348948943b
+Output: a,b, c
+
+
+Input: ./stringsorter alpha!delta!delta!charlie*bravo
+Output: alpha, bravo, charlie,delta, delta
+
+
+Input: ./stringsorter !@#$%^&*()
+Output: 
+
+
+Input: ./stringsorter abc
+Output: abc
